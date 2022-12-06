@@ -10,7 +10,7 @@ set number
 set relativenumber
 set hlsearch
 
-" Basic pari
+" Basic pair
 inoremap {		{}<Left>
 inoremap <expr> }	strpart(getline('.'), col('.')-1, 1) == "}" ? "\<Right>" : "}"
 inoremap {<CR>		{<CR>}<Esc>O
